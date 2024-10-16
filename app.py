@@ -9,7 +9,7 @@ import requests  # For LanguageTool API
 # Title and description
 st.title("Video Audio Replacement with AI Generated Voice")
 st.write("-----------------------------------------------")
-st.write("This is created by Sonu Garg")
+st.write("Created by Sonu Garg")
 st.write("-----------------------------------------------")
 st.write("This PoC takes a video file, transcribes its audio, corrects grammar, and replaces the audio with AI-generated voice.")
 
