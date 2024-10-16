@@ -6,4 +6,3 @@ TTS
 pydub
 requests
 language-tool-python
-ffmpeg
