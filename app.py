@@ -4,7 +4,7 @@ import torch
 import os
 from transformers import pipeline
 from TTS.api import TTS  # Coqui TTS
-import language_tool_python  # For grammatical correction
+import requests  # For LanguageTool API
 
 # Title and description
 st.title("Video Audio Replacement with AI Generated Voice")
@@ -39,11 +39,26 @@ if uploaded_file is not None:
     st.write("Transcription:")
     st.write(transcription)
 
-    # Step 3: Grammar correction using language_tool_python (free, local)
+    # Step 3: Grammar correction using LanguageTool API
     st.write("Correcting transcription grammar...")
-    tool = language_tool_python.LanguageTool('en-US')
-    matches = tool.check(transcription)
-    corrected_transcription = language_tool_python.utils.correct(transcription, matches)
+
+    def correct_grammar_with_api(text):
+        url = "https://api.languagetool.org/v2/check"
+        data = {
+            "text": text,
+            "language": "en-US"
+        }
+        response = requests.post(url, data=data)
+        result = response.json()
+        corrected_text = text
+        for match in reversed(result['matches']):
+            start = match['offset']
+            end = start + match['length']
+            replacement = match['replacements'][0]['value'] if match['replacements'] else ""
+            corrected_text = corrected_text[:start] + replacement + corrected_text[end:]
+        return corrected_text
+
+    corrected_transcription = correct_grammar_with_api(transcription)
     
     st.write("Corrected Transcription:")
     st.write(corrected_transcription)
