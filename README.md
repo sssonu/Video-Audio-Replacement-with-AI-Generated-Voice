@@ -17,7 +17,7 @@ This project demonstrates an end-to-end solution for replacing the audio in vide
 4. Python-Language-Tool for grammar correction.
 5. Coqui TTS for text-to-speech.
 
-   
+ ##### Snapshots  
 ![Snapshot](https://github.com/user-attachments/assets/e2304c2c-b409-4522-a076-034bccc5a19f)
 
 ###### Feel free to explore the code, clone the repository, and contribute to enhancing this PoC (Proof of Concept) with additional features like multi-language support, advanced speech alignment, or real-time processing capabilities!
