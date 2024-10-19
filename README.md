@@ -8,12 +8,12 @@ This project demonstrates an end-to-end solution for replacing the audio in vide
 2. Grammar Correction using language_tool_python to enhance transcription quality.
 3. AI Voice Generation using Coqui TTS to synthesize a natural-sounding voice based on corrected transcriptions.
 4. Video Processing using moviepy to replace the original audio with the AI-generated voice in the final video.
-5. Supports common video formats such as MP4, AVI, and MOV.
+5. Supports common video formats such as MP4, AVI,MOV and MPEG4.
 ##### Technologies Used:
 1. Streamlit for web interface.
 2. MoviePy for video and audio editing.
 3. Transformers (Whisper) for speech-to-text.
-4. LanguageTool for grammar correction.
+4. Python-Language-Tool for grammar correction.
 5. Coqui TTS for text-to-speech.
 
 ###### Feel free to explore the code, clone the repository, and contribute to enhancing this PoC (Proof of Concept) with additional features like multi-language support, advanced speech alignment, or real-time processing capabilities!
