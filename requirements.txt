@@ -7,3 +7,4 @@ pydub
 requests
 gingerit
 ffmpeg
+upgrade transformers 
