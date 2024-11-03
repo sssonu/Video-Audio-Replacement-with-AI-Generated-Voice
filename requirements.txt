@@ -7,3 +7,5 @@ requests
 gingerit
 ffmpeg
 transformers 
+numpy  
+pandas
