@@ -10,6 +10,7 @@ import requests  # For LanguageTool API
 st.title("Video Audio Replacement with AI Generated Voice")
 
 st.write("This PoC takes a video file, transcribes its audio, corrects grammar, and replaces the audio with AI-generated voice.")
+st.write("Created by Sonu")
 
 # File uploader for video
 uploaded_file = st.file_uploader("Upload a video file", type=["mp4", "avi", "mov"])
