@@ -1,10 +1,9 @@
 streamlit
 moviepy
-transformers
 torch
 TTS
 pydub
 requests
 gingerit
 ffmpeg
-upgrade transformers 
+transformers 
