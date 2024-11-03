@@ -9,3 +9,7 @@ ffmpeg
 transformers 
 numpy  
 pandas
+blis
+murmurhash
+cython
+
