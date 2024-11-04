@@ -9,11 +9,4 @@ ffmpeg
 transformers 
 numpy  
 pandas
-spacy==3.2.4
-requests==2.31.0
-scikit-learn==1.1.2
-matplotlib==3.5.3
-blis
-murmurhash
-cython
-setuptools==58.0.4
+
