@@ -1,6 +1,13 @@
 ### Video-Audio-Replacement-with-AI-Generated-Voice 
 [Try it here](https://video-audio-replacement-with-ai-generated-voice-epkwkwwuse8gob.streamlit.app/)
 
+### NOTE :-
+If the application does not run well due to any reason then try to run it in your Local Machine
+1) Clone the repository in Visual Studio Code.
+2) For installing the dependencies run this Command in Terminal pip install -r requirements.txt .
+3) After the dependencies installed, run the application with this command  streamlit run app.py .
+
+
 #### AI-Powered Video Audio Replacement Tool
 This project demonstrates an end-to-end solution for replacing the audio in video files with AI-generated voiceovers. It involves automatic transcription, grammar correction, and synthetic voice generation, all seamlessly integrated to provide an AI-based audio replacement.
 
