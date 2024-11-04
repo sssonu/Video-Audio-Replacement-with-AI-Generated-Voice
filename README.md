@@ -5,7 +5,7 @@
 If the application does not run well due to any reason then try to run it in your Local Machine
 1) Clone the repository in Visual Studio Code.
 2) For installing the dependencies run this Command in Terminal <code> pip install -r requirements.txt </code>.
-3) After the dependencies installed, run the application with this command  streamlit run app.py .
+3) After the dependencies installed, run the application with this command <code> streamlit run app.py </code>.
 
 
 #### AI-Powered Video Audio Replacement Tool
