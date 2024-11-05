@@ -1,5 +1,16 @@
 ### Video-Audio-Replacement-with-AI-Generated-Voice 
+
+#### Snapshots
+1) UI
 [Try it here](https://video-audio-replacement-with-ai-generated-voice-epkwkwwuse8gob.streamlit.app/)
+
+2) Transcription And Grammer Corrected Transcription
+   ![Transcription And Grammer Corrected Transcription](https://github.com/user-attachments/assets/4a307b02-93de-4f66-bcd1-78604227dee2)
+
+3) Original Audio Replaced with AI-Voice and Download button
+   ![Original Audio Replaced with AI-Voice and Download button](https://github.com/user-attachments/assets/6bee716d-aaf4-42ad-a534-3d90780e1106)
+
+
 
 ### NOTE :-
 If the application does not run well due to any reason then try to run it in your Local Machine
