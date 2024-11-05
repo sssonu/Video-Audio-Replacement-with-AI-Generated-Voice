@@ -1,13 +1,16 @@
 ### Video-Audio-Replacement-with-AI-Generated-Voice 
 
-#### Snapshots
-1) UI
 [Try it here](https://video-audio-replacement-with-ai-generated-voice-epkwkwwuse8gob.streamlit.app/)
 
-2) Transcription And Grammer Corrected Transcription
+#### Snapshots
+
+1) ###### UI
+   ![image](https://github.com/user-attachments/assets/8c6f5e27-88b1-420f-ba60-aa049d3bc214)
+
+2) ###### Transcription And Grammer Corrected Transcription
    ![Transcription And Grammer Corrected Transcription](https://github.com/user-attachments/assets/4a307b02-93de-4f66-bcd1-78604227dee2)
 
-3) Original Audio Replaced with AI-Voice and Download button
+3) ###### Original Audio Replaced with AI-Voice and Download button
    ![Original Audio Replaced with AI-Voice and Download button](https://github.com/user-attachments/assets/6bee716d-aaf4-42ad-a534-3d90780e1106)
 
 
